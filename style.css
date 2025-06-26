@@ -40,3 +40,44 @@ body{
 .main-nav a:hover {
   color: #333;
 }
+
+/*section 1 introduction */
+
+.sec-intro {
+  text-align: center;
+  padding: 60px 20px;
+  color: #00b39b;
+}
+.intro-icon img {
+  width: 40px;
+  margin-bottom: 20px;
+}
+.sec-intro h2 {
+  font-weight: 300;
+  font-size: 60px;
+  margin-bottom: 48px;
+}
+.intro-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #747474;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+}
+.intro-text p {
+  width: 40%;
+  min-width: 300px;
+}
+.intro-text a{
+  color: #00b39b;
+  text-decoration: none;
+}
+.intro-text a:hover {
+  text-decoration: underline;
+}
