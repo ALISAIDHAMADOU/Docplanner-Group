@@ -122,3 +122,78 @@ body{
 .card-clinic {
   background-color: #1b2734;
 }
+/*partie style du texte card*/
+.card h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 0 10px;
+}
+
+.card p{
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.card a{
+  margin-top: 30px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card a span {
+  font-weight: normal;
+  font-size: 14px;
+
+}
+
+/*partie brands logo*/
+
+.brands {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.brands-text {
+  width: 30%;
+  min-width: 200px;
+}
+
+.brands-text h3 {
+  color: #00b39b;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.brands-logos {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.brands-logos div {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brands-logos img {
+  max-width: 100%;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.brands-logos img:hover {
+  opacity: 1;
+}
